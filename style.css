@@ -316,6 +316,12 @@ section{
     .about .container h3{
         font-size: 1.1em;
     }
+    .footer .social-ico a{
+        font-size: 1em;
+    }
+    .footer-title{
+        font-size: 0.8em;
+    }
 }
 @media (max-width: 360px) {
     header{
@@ -331,4 +337,11 @@ section{
     .main h3{
         font-size: 1em;
     }
+    .footer .social-ico a{
+        font-size: 0.9em;
+        padding: 8px;
+    }
+    .footer-title{
+        font-size: 0.6em;
+    }      
 }
