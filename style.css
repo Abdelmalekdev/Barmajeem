@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    font-family:"Comfortaa" , "Tajawal", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:auto;
+    z-index: 1;
+}
+
+body{
+    background-color: #eee;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*navbar*/
+header{
+    box-shadow: 0 0 50px #999;
+    background-color: #08f;
+    position: fixed;
+    width: 100%;
+    z-index: 999; 
+    padding: 10px 50px;
+}
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+}
+.logo{
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 50px;
+}
+.logo p {
+    color :#08f ;
+}
+.color{
+    color: #f70;
+}
+.nav a{
+    margin: 0 15px;
+    color: #eee;
+    font-size: 1.3em;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav a:hover{
+    color: #f70;
+}
+/*navbar*/
+/*scroll bar*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #c4c4c4;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #08f;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #f70;
+}
+/*scroll bar*/
+/*main*/
+section{
+    text-align: center;
+}
+.main{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(imgs/Tlogo.png) no-repeat;
+    background-size:100vh;
+    background-position: center;
+}
+.main h2{
+    color: #08f;
+    font-size: 1.5em;
+    font-weight: 500; 
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 25px;
+    color: #f70;
+    font-size: 3em;
+    font-weight: 500;
+}
+.main h3{
+    color: #08f;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main .main-btn button{
+    color: #fff;
+    border: none;
+    background-color: #08f;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom:30px ;
+    box-shadow: 0 5px 25px #01010180;
+    transition: 0.4s ease;
+}
+.main .main-btn button:hover{
+    transform: scale(1.05);
+    letter-spacing: 1.5px;
+    background-color: #f70;
+}
+.social-ico{
+    padding-left: 32px;
+    
+}
+.social-ico a{
+    color: #08f;
+    font-size: 1.9em;
+    padding-right: 30px;
+}
+.social-ico .io{ transition: 0.2s ease;}
+.social-ico .you{ transition: 0.2s ease;}
+.social-ico .insta{ transition: 0.2s ease;}
+.social-ico .dis{ transition: 0.2s ease;}
+.social-ico .io:hover{
+    color: #f70;
+}
+.social-ico .you:hover{
+    color: #f70;
+}
+.social-ico .insta:hover{
+    color: #f70;
+}
+.social-ico .dis:hover{
+    color: #f70;
+}
+/*main*/
+/*about*/
+.about{ 
+    display: inline-block;
+    background-color: #08f;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 10vh;
+    padding: 50px 130px;
+    box-shadow: 0 3px 50px #999;
+}
+.about .container h2{
+    margin-bottom: 40px;
+    color: #eee;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.about .container h3{
+    line-height: 50px;
+    color: #eee;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.about span{
+    color: #f70;
+}
+/*about*/
+/*services*/
+.cards{
+    background-color: #eee;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #08f;
+    font-size: 2.5em;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.content{
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.card{
+    background-color: #08f;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    font-size: 5em;
+    text-align: center;
+}
+.info h3{
+    color: #f70;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info p{
+    font-size: 1.1em;
+}
+/*services*/
+/*projects*/
+.projects{
+    background-color: #08f;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #999;
+}
+.projects .title{
+    color: #eee;
+    margin-bottom: 30px;
+}
+#title{
+    font-size: 1.5em;
+    margin: 2px 0;
+    padding: 0;
+}
+.pro-card{
+    color: #000;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 50%);
+    min-height: 15em;
+    width: 20em;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.pro-card:hover{
+    transform: scale(1.1);
+}
+.pro-img img{
+    width: 100%;
+}
+.pro-info{
+    padding: 0.6em 1em;
+}
+.pro-category{
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+.pro-title{
+    display: flex;
+    justify-content: space-between;
+}
+.more{
+    color: #08f;
+    transition: 0.3s ease;
+}
+.more:hover{
+    transform: scale(1.1);
+    color: #f70;
+}
+#proT{
+    font-size: 0.85em;
+    font-weight: 800;
+}
+/*projects*/
+/*thanks*/
+.thnx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #08f;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 50px;
+}
+.thnx span{
+    color: #f70;
+}
+/*thanks*/
+/*footer*/
+.footer{
+    box-shadow: 0 0 50px #999 ;
+    background-color: #08f;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 2;
+}
+.footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+}
+.footer-title{
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #08f;
+}
+.footer span{
+    color: #f70;
+}
+.footer .social-ico a{
+    color: #fff;
+    font-size: 1.4em;
+    padding: 0px 7px;
+}
+/*footer*/
+/*responsivness*/
+@media (max-width: 768px) {
+    header .nav{
+        display: block;
+        text-align: center;
+    }
+    header .nav ul{
+        margin-top: 20px;
+    }
+    header .nav ul a{
+        margin: 0px 8px;
+    }
+    .main h2 span{
+        font-size: 2em;
+    }
+    .main h3{
+        font-size: 1.5em;
+    }
+    .about{
+        padding: 50px 20px;
+        min-height: 20vh;
+    }
+    .about .container h3{
+        font-size: 1em;
+        line-height: 30px;
+    }
+    .footer .social-ico a{
+        font-size: 1em;
+    }
+    .footer-title{
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 360px) {
+    header{
+        padding: 10px 40px;
+    }
+    header .nav ul a {
+        font-size: 1em;
+        margin: 0 5px;
+    }
+    .main h2 span{
+        font-size: 1.5em;
+    }
+    .main h3{
+        font-size: 1em;
+    }
+    .about{
+        padding: 50px 10px;
+        min-height: 5vh;
+    }
+    .about .container h3{
+        font-size: 0.8em;
+        line-height: 20px;
+    }
+    .footer .social-ico a{
+        font-size: 0.9em;
+        padding: 5px;
+    }
+    .footer-title{
+        font-size: 0.6em;
+    }    
+}
+
+/*make by Barmajeem برمجيم*/
