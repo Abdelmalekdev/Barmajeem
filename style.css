@@ -416,6 +416,10 @@ section{
     .main-btn button{
         font-size: 0.9em;
     }
+    .footer .social-ico a{
+        font-size: 0.8em;
+        padding: 0.8px;
+    }
     .footer-title{
         font-size: 0.45em;
     }   
