@@ -412,14 +412,13 @@ section{
         font-size: 0.8em;
         margin: 0 4px;
     }
-    .main-btn button{
-        font-size: 0.9em;
-    }
     .social-ico a{
         font-size: 1.7em;
-        padding-right: 25px;
-        
+        padding-right: 20px;
     }
+    .main-btn button{
+        font-size: 0.9em;
+    } 
     .footer .social-ico a{
         font-size: 0.8em;
         padding: 0.8px;
