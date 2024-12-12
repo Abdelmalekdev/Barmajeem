@@ -148,7 +148,6 @@ section{
 }
 .social-ico{
     padding-left: 32px;
-    
 }
 .social-ico a{
     color: #08f;
@@ -409,8 +408,17 @@ section{
     }    
 }
 @media (max-width: 320px) {
+    header .nav ul a {
+        font-size: 0.8em;
+        margin: 0 4px;
+    }
     .main-btn button{
         font-size: 0.9em;
+    }
+    .social-ico a{
+        font-size: 1.7em;
+        padding-right: 25px;
+        
     }
     .footer .social-ico a{
         font-size: 0.8em;
