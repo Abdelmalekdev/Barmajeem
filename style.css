@@ -183,13 +183,13 @@ section{
 }
 .about .container h2{
     margin-bottom: 40px;
-    color: #eee;
+    color: #fff;
     font-size: 2.5em;
     font-weight: 500;
 }
 .about .container h3{
     line-height: 35px;
-    color: #eee;
+    color: #fff;
     font-size: 1.3em;
     font-weight: 500;
 }
@@ -199,7 +199,7 @@ section{
 /*about*/
 /*services*/
 .cards{
-    background-color: #eee;
+    background-color: #fff;
 }
 .title{
     display: flex;
