@@ -43,9 +43,17 @@ header .nav{
     display: inline-block;
     background-color: #fff;
     border-radius: 50px;
+    transition: 0.3s ease;
 }
 .logo p {
     color :#08f ;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    background-color: #08f;
+}
+.logo:hover p{
+    color: #fff;
 }
 .color{
     color: #f70;
@@ -255,6 +263,7 @@ section{
     margin-bottom: 30px;
 }
 #title{
+    color: #f70;
     font-size: 1.5em;
     margin: 2px 0;
     padding: 0;
