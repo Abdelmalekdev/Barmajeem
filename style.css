@@ -251,7 +251,7 @@ section{
     box-shadow: 0 0 50px #999;
 }
 .projects .title{
-    color: #eee;
+    color: #fff;
     margin-bottom: 30px;
 }
 #title{
@@ -261,10 +261,9 @@ section{
 }
 .pro-card{
     color: #000;
-    background-color: #eee;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 5px 25px rgba(255, 255, 255, 50%);
-    min-height: 15em;
     width: 20em;
     overflow: hidden;
     margin: 10px;
