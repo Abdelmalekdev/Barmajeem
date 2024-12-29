@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior:auto;
+    scroll-behavior:smoth;
     z-index: 1;
 }
 
@@ -216,19 +216,19 @@ section{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .card{
     background-color: #08f;
     width: 18em;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
-    padding: 22px;
-    margin: 25px;
-    transition: 0.7s ease;
+    padding: 20px;
+    margin: 5px;
+    transition: 0.3s ease;
 }
 .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .icon{
     font-size: 5em;
@@ -267,11 +267,11 @@ section{
     min-height: 15em;
     width: 20em;
     overflow: hidden;
-    margin: 20px;
-    transition: 0.7s ease;
+    margin: 10px;
+    transition: 0.3s ease;
 }
 .pro-card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .pro-img img{
     width: 100%;
