@@ -219,16 +219,18 @@ section{
     padding-bottom: 20px;
 }
 .content{
-    color: #eee;
+    color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: auto;
     padding-bottom: 10px;
 }
 .card{
     background-color: #08f;
-    width: 18em;
+    width: 100%;
     box-shadow: 0 5px 25px rgba(1 1 1 /50%);
     border-radius: 10px;
     padding: 20px;
@@ -273,7 +275,7 @@ section{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 5px 25px rgba(255, 255, 255, 50%);
-    width: 20em;
+    width: 100%;
     overflow: hidden;
     margin: 10px;
     transition: 0.3s ease;
@@ -377,6 +379,15 @@ section{
     .about .container h3{
         font-size: 1em;
         line-height: 30px;
+    }
+    .content{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 20em;
+    }
+    .pro-card{
+        width: 20em;
     }
     .footer-title{
         font-size: 0.8em;
