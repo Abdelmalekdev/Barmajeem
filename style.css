@@ -337,7 +337,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 }
 .footer-title{
@@ -442,9 +442,6 @@ section{
         font-size: 0.8em;
         padding: 0.8px;
     }
-    .footer-title{
-        font-size: 0.45em;
-    }   
 }
 
 /*make by Barmajeem برمجيم*/
