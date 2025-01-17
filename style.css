@@ -422,6 +422,9 @@ section{
         font-size: 0.9em;
         padding: 2px;
     }  
+    .footer-title{
+        font-size: 0.65em;
+    }
 }
 @media (max-width: 320px) {
     header .nav ul a {
